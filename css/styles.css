@@ -786,3 +786,17 @@ position: relative;
     background-color: transparent;
     cursor: pointer
 }
+
+/* Modal form */
+.form-title {
+    display: block;
+}
+
+.form-group {
+    display: block;
+    position: relative;
+}
+
+.form-icon {
+    position: absolute;
+}
