@@ -953,13 +953,10 @@ position: relative;
     width: 16px;
     height: 15px;
     background-image: url(../images/icons/icon-box.svg);
-
-    transition: var(--animation);
 }
 
 .register-checkbox:checked:focus + .icon-checkbox {
     background-image: url(../images/icons/icon-check.svg);
-    transform: background-image;
 }
 
 .register-form-btn {
