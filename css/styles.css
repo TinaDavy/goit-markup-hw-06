@@ -412,10 +412,15 @@ position: relative;
     background-color: var(--accent-background-color);
 }
 
+
 .footer-box {
     display: flex;
     align-items: baseline;
     gap: 70px;
+}
+
+.footer-div:last-child {
+    margin-left: 93px;
 }
 
 .footer-logo {
