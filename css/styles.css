@@ -420,7 +420,7 @@ position: relative;
 }
 
 .footer-div:last-child {
-    margin-left: 93px;
+    margin-left: 23px;
 }
 
 .footer-logo {
@@ -849,10 +849,15 @@ position: relative;
     cursor: pointer
 }
 
+.modal-btn:hover  .modal-btn-icon,
+.modal-btn:focus .modal-btn-icon {
+    fill: var(--accent-color);
+}
+
 /* Modal-form */
 .register-form-title {
     display: block;
-    margin-bottom: 30px;
+    margin-bottom: 12px;
 
     font-weight: 700;
     font-size: 20px;
@@ -876,11 +881,17 @@ position: relative;
 
 .register-form-wrap:last-child {
     margin-bottom: 0;
+    height: 138px;
 }
 
 .register-form-label {
     display: block;
-    margin-bottom: 6px;
+    margin-bottom: 4px;
+
+    font-weight: 400;
+    font-size: 12px;
+    line-height: calc(14 / 12);
+    letter-spacing: 0.01em;
 }
 
 .register-form-input,
@@ -938,6 +949,7 @@ position: relative;
     position: relative;
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 7px;
     margin-bottom: 30px;
 }
